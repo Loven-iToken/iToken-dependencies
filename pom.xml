@@ -185,6 +185,18 @@
             </resource>
         </resources>
     </build>
+    <distributionManagement>  
+        <repository>  
+            <id>github-releases</id>  
+            <name>Github Release Repository</name>  
+            <url>https://maven.pkg.github.com/Loven-iToken/releases/</url>  
+        </repository>  
+        <snapshotRepository>  
+            <id>github-snapshots</id>  
+            <name>Github Snapshot Repository</name>  
+            <url>https://maven.pkg.github.com/Loven-iToken/snapshots/</url>  
+        </snapshotRepository>  
+    </distributionManagement> 
     <repositories>
         <repository>
             <id>aliyun-repos</id>
