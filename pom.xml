@@ -190,12 +190,7 @@
             <id>github-releases</id>  
             <name>Github Release Repository</name>  
             <url>https://maven.pkg.github.com/Loven-iToken/iToken-dependencies</url>  
-        </repository>  
-        <snapshotRepository>  
-            <id>github-snapshots</id>  
-            <name>Github Snapshot Repository</name>  
-            <url>https://maven.pkg.github.com/Loven-iToken/iToken-dependencies</url>  
-        </snapshotRepository>  
+        </repository>   
     </distributionManagement> 
     <repositories>
         <repository>
@@ -254,7 +249,7 @@
         <pluginRepository>
             <id>github-nexus</id>
             <name>Nexus Plugin Repository</name>
-            <url>https://maven.pkg.github.com/Loven-iToken</url>
+            <url>https://maven.pkg.github.com/Loven-iToken/iToken-dependencies</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
