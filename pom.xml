@@ -239,11 +239,10 @@
     </repositories>
 
     <pluginRepositories>
-        <!--配置nexus私有仓库-->
         <pluginRepository>
-            <id>nexus</id>
+            <id>github-nexus</id>
             <name>Nexus Plugin Repository</name>
-            <url>http://127.0.0.1:8081/repository/maven-public/</url>
+            <url>https://maven.pkg.github.com/Loven-iToken</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -251,7 +250,6 @@
                 <enabled>true</enabled>
             </releases>
         </pluginRepository>
-        <!--配置nexus私有仓库-->
 
         <pluginRepository>
             <id>aliyun-repos</id>
