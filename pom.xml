@@ -189,12 +189,12 @@
         <repository>  
             <id>github-releases</id>  
             <name>Github Release Repository</name>  
-            <url>https://maven.pkg.github.com/Loven-iToken/releases/</url>  
+            <url>https://maven.pkg.github.com/Loven-iToken/iToken-dependencies</url>  
         </repository>  
         <snapshotRepository>  
             <id>github-snapshots</id>  
             <name>Github Snapshot Repository</name>  
-            <url>https://maven.pkg.github.com/Loven-iToken/snapshots/</url>  
+            <url>https://maven.pkg.github.com/Loven-iToken/iToken-dependencies</url>  
         </snapshotRepository>  
     </distributionManagement> 
     <repositories>
