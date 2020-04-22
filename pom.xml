@@ -187,8 +187,8 @@
     </build>
     <distributionManagement>  
         <repository>  
-            <id>github-releases</id>  
-            <name>Github Release Repository</name>  
+            <id>github</id>  
+            <name>Github Packages</name>  
             <url>https://maven.pkg.github.com/Loven-iToken/iToken-dependencies</url>  
         </repository>   
     </distributionManagement> 
